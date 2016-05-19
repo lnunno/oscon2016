@@ -7,6 +7,9 @@
     * Cobra
     * Viper
     * Unikernels
+* Python
+    * Pytest: Compatible with unittest. More pythonic than unittest.
+    * Doctest: Documentation as tests. Add your API example to the top of your module and will run it to see if your API actually does do the things you document.
 * Tensorflow
 * Bazel
 * Swagger: API Design. 
@@ -16,6 +19,8 @@
 ## Unikernel
 
 Cross-compile existing applications into a lightweight VM.
+
+Pull only the stuff you need into a single executable. Stops vulnerabilities due to a huge stack that comes with the existing OS infrastructure (OpenSSL, etc).
 
 Single address space single process.
 
