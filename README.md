@@ -14,9 +14,24 @@
 * Bazel
 * Swagger: API Design. 
     * "If you don't use this what are you doing?!?" Angel from IBM
+* Rexray: vendor agnostic storage orchestration engine.
+* JSON Query tool: https://stedolan.github.io/jq/
+* Github Torrent - Github Analytics on the public github data http://ghtorrent.org/
+
+## Python
+
+``python -m compileall <directory>``
+
+``python -m unittest discover <directory>``
+
+## Git
+
+``git log --graph --oneline``
 
 
 ## Unikernel
+
+Single user, single process OS. Massive performance improvements. Modern OSes take a 30-40% performance hit on context switching and isolation of process address spaces.
 
 Cross-compile existing applications into a lightweight VM.
 
